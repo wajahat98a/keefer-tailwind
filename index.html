@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>keefer</title>
+</head>
+
+<body>
+    <div class="container mx-auto sm:px-6 lg:px-8 flex justify-between sm:text-md">
+        <div><img class="object-fit w-{100cqw} h-40 sm:scale-100" src="./Assets/logo.png" alt="logo"></div>
+        <div class="right pr-10 pt-3">
+            <h1 class="text-red-800 font-bold text-3xl ">CALL OUR OFFICES NOW!
+            </h1>
+            <h2 class="text-5xl font-bold tracking-widest border-t-3">540.433.6906</h2>
+            <p class="text-2xl">Get Your Questions Answered Fast</p>
+        </div>
+    </div>
+    <nav class="bg-red-800 text-white">
+        <ul class="flex space-x-8 justify-end mr-10 py-2 text-2xl text-bold hidden sm:flex gap-4 lg:gap-8">
+            <li class="hover:text-gray-500 hover">HOME</li>
+            <li class="hover:text-gray-500 hover">BIOGRAPHY</li>
+            <li class="hover:text-gray-500 hover">BLOG</li>
+            <li class="hover:text-gray-500 hover">AREA WE SERVE</li>
+            <li class="hover:text-gray-500 hover">LIBRARY</li>
+            <li class="hover:text-gray-500 hover">CONTACT</li>
+        </ul>
+    </nav>
+    <div class="container mx-auto flex gap-10 pt-10 pb-10">
+        <div class="img"><img class="w-[50cqw] " src="./Assets/gurantee_banner.gif" alt="">
+        </div>
+        <div class="pt-10 w-[40cqw] h-[32cqw] bg-[url('./Assets/form_bg.jpg')] bg-cover">
+            <div class="flex">
+                <div class="">
+                    <h1 class="bg-red-800 w-50 text-3xl px-3 py-2 -mt-10 font-bold text-white">QUESTIONS?</h1>
+                </div>
+                <div class="justify-end">
+                    <h2 class=" text-2xl w-70 ml-6 -mt-10">
+                        Have A <span class="text-[#000080] font-bold text text-4xl"> Question</span> About Your Case?
+                    </h2>
+                </div>
+            </div>
+            <div>
+                <p class="text-xl w-136 mt-5 pl-6 justify-start">Enter your information and get your questions answered
+                    quickly and
+                    discreetly or call us at:
+                    <span class="font-bold">540.433.6906</span>
+                </p>
+                <div class="contact-from ml-9 mt-3 ">
+                    <label for="name">Name:</label>
+                    <input class="bg-white border-1" type="text" id="name" name="name" required>
+                </div>
+                <div class="contact-from ml-10 mt-3">
+                    <label for="email">Email:</label>
+                    <input class="bg-white border-1" type="email" id="email" name="email" required>
+                </div>
+                <div class="contact-from ml-8 mt-3">
+                    <label for="phone">Phone:</label>
+                    <input class="bg-white border-1" type="tel" id="phone" name="phone" required>
+
+                </div>
+                <div><img class="ml-72 -mt-20 w-50 rotate-10" src="./Assets/confidential.png" alt="">
+                    <textarea class="mt-11 h-16 ml-10 border-1 text-black bg-white w-111"
+                        placeholder="Tell us about your case here..." name=""></textarea>
+                </div>
+                <div class="flex">
+                    <p class="italic mt-3 ml-9 text-grey-500 w-45">100% privacy guaranteed</p>
+                    <div class="btn bg-red-800 ml-5 mt-1">
+                        <button class="text-white">Ask us about your case </button>
+                        <img class="justify-end" src="./Assets/bullet_white.gif" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="3rd-section flex gap-40">
+        <div class="card-1 flex border-r-2">
+            <div class="ml-15">
+                <h1 class="text-2xl font-bold ">CHARGED WITH <SPAN class="text-red-800"> DUI?</SPAN>
+                </h1>
+                <h2 class="text-lg text-red-800 font-bold  mt-2">FREE CASE EVALUATION</h2>
+                <p class="w-55 mt-2">Being charged with DUI can be scary. Get the help you deserve. <br> <br>Click here
+                    to let us know how we
+                    can help you with your case. </p>
+            </div>
+            <div class="mt-10 flex-col justify-center items-end "><img class="w-25" src="./Assets/paste_board.gif"
+                    alt="">
+                <div class="flex items-center mt-15">
+                    <div><button class="bg-red-800 text-white text-lg pr-3 pl-3">Click Here <i class="fa-solid fa-play " style="color: rgb(255, 255, 255) ; font-size: 13px;"></i> </button></div>
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="card-2 flex justify-center items-start ">
+            <div>
+                <h1 class="text-2xl font-bold">
+                    LAW <span class="text-red-800 ">BLOG</span>
+                    </h1>
+                    <p class="text-lg text-black w-40">Learn more about Virginia traffic laws</p>
+                
+                </div>
+                <div>
+                    <img src="./Assets/pic1.gif" alt="">
+                </div>
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
